@@ -20,7 +20,7 @@ public class TestSuite_1 {
 		loginPage.open();
 	}
 	
-	@After
+	@After // test GIT branch
 	public void close() {
 		loginPage.close();
 	}
