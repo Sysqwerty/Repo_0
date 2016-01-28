@@ -20,7 +20,7 @@ public class TestSuite_1 {
 		loginPage.open();
 	}
 	
-	@After // test master
+	@After // test master!
 	public void close() {
 		loginPage.close();
 	}
